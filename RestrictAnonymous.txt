@@ -1,0 +1,2 @@
+// Modify registry key to restrict anonymous access
+regset "[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\LSA]" "RestrictAnonymous"=1
